@@ -103,7 +103,7 @@ class _FirstScreenState extends State<FirstScreen>
             left: 0,
             right: 0,
             curve: Curves.fastOutSlowIn,
-            duration: const Duration(milliseconds: 100),
+            duration: const Duration(milliseconds: 0),
             child: GestureDetector(
               onVerticalDragEnd: (details) {
                 isRunning = false;
